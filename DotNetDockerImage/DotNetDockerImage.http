@@ -1,0 +1,6 @@
+@DotNetDockerImage_HostAddress = http://localhost:5027
+
+GET {{DotNetDockerImage_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
